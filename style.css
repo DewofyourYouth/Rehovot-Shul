@@ -1,0 +1,98 @@
+/*
+Theme Name: Rehovot Minyan
+Author: Yaakov Shore
+Author URI: http://dewofyouryouth.com
+Description: A theme made by Yaakov Shore for the new Minyan in Rehovot.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri:700');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+
+
+
+.navbar-nav > li > a {
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.navbar-nav > li > a:hover {
+    text-decoration: none;
+    color: #FFBB00;
+}
+
+.home-sec-title{
+    color: #141B41;
+    margin-bottom: 15px;
+    font-family: 'Fugaz One', cursive;
+
+}
+
+.entry-title{
+    font-family: 'Fugaz One', cursive;
+
+}
+
+.jumbotron {
+    color: black;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+}
+
+.jumbotron h1{
+    font-size: 3rem;
+
+}
+
+.gradient-bg {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d5bbf+0,2989d8+50,7db9e8+100 */
+background: #3d5bbf; /* Old browsers */
+background: -moz-linear-gradient(left, #3d5bbf 0%, #2989d8 50%, #375e97 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #3d5bbf 0%,#2989d8 50%,#375e97 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #3d5bbf 0%,#2989d8 50%,#375e97 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d5bbf', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.page-id-9 h2 {
+    color: #555;   
+}
+
+h2 > a {
+    color: #3F681C;
+}
+
+h2 > a:hover {
+    color: #FB6542;
+}
+
+.comment {
+    padding-left: 30px;
+}
+
+.home-page-img{
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#site-footer{
+    background-color: #f5f5f5;
+    border-top: solid .5px #e5e5e5;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0;
+}
+
+.copyright{
+    font-size: .8rem;
+}
